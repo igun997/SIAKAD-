@@ -20,20 +20,20 @@
         <!-- end: META -->
         <!-- start: MAIN CSS -->
         <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Raleway:400,100,200,300,500,600,700,800,900/" />
-        <link type="text/css" rel="stylesheet" href="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/bootstrap/dist/css/bootstrap.min.css" />
         <link type="text/css" rel="stylesheet" href="<?php echo base_url()?>template/font-awesome/css/font-awesome.min.css" />
-        <link type="text/css" rel="stylesheet" href="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/fonts/clip-font.min.css" />
-        <link type="text/css" rel="stylesheet" href="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/iCheck/skins/all.css" />
-        <link type="text/css" rel="stylesheet" href="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" />
-        <link type="text/css" rel="stylesheet" href="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/sweetalert/dist/sweetalert.css" />
-        <link type="text/css" rel="stylesheet" href="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/css/main.min.css" />
-        <link type="text/css" rel="stylesheet" href="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/css/main-responsive.min.css" />
-        <link type="text/css" rel="stylesheet" media="print" href="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/css/print.min.css" />
-        <link type="text/css" rel="stylesheet" id="skin_color" href="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/css/theme/light.min.css" />
+        <link type="text/css" rel="stylesheet" href="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/fonts/clip-font.min.css" />
+        <link type="text/css" rel="stylesheet" href="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/iCheck/skins/all.css" />
+        <link type="text/css" rel="stylesheet" href="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+        <link type="text/css" rel="stylesheet" href="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/sweetalert/dist/sweetalert.css" />
+        <link type="text/css" rel="stylesheet" href="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/css/main.min.css" />
+        <link type="text/css" rel="stylesheet" href="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/css/main-responsive.min.css" />
+        <link type="text/css" rel="stylesheet" media="print" href="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/css/print.min.css" />
+        <link type="text/css" rel="stylesheet" id="skin_color" href="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/css/theme/light.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <!-- end: MAIN CSS -->
         <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
-        <link href="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" />
+        <link href="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" />
         <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
     </head>
 
@@ -58,344 +58,13 @@
                 <div class="navbar-tools">
                     <!-- start: TOP NAVIGATION MENU -->
                     <ul class="nav navbar-right">
-                        <!-- start: TO-DO DROPDOWN -->
-                        <li class="dropdown">
-                            <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true" href="#">
-                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                <span class="badge"> 12</span>
-                            </a>
-                            <ul class="dropdown-menu todo">
-                                <li>
-                                    <span class="dropdown-menu-title"> You have 12 pending tasks</span>
-                                </li>
-                                <li>
-                                    <div class="drop-down-wrapper">
-                                        <ul>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc" style="opacity: 1; text-decoration: none;">Staff Meeting</span>
-                                                    <span class="label label-danger" style="opacity: 1;"> today</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc" style="opacity: 1; text-decoration: none;"> New frontend layout</span>
-                                                    <span class="label label-danger" style="opacity: 1;"> today</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc"> Hire developers</span>
-                                                    <span class="label label-warning"> tommorow</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc">Staff Meeting</span>
-                                                    <span class="label label-warning"> tommorow</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc"> New frontend layout</span>
-                                                    <span class="label label-success"> this week</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc"> Hire developers</span>
-                                                    <span class="label label-success"> this week</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc"> New frontend layout</span>
-                                                    <span class="label label-info"> this month</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc"> Hire developers</span>
-                                                    <span class="label label-info"> this month</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc" style="opacity: 1; text-decoration: none;">Staff Meeting</span>
-                                                    <span class="label label-danger" style="opacity: 1;"> today</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc" style="opacity: 1; text-decoration: none;"> New frontend layout</span>
-                                                    <span class="label label-danger" style="opacity: 1;"> today</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="todo-actions" href="javascript:void(0)">
-                                                    <i class="fa fa-square-o"></i>
-                                                    <span class="desc"> Hire developers</span>
-                                                    <span class="label label-warning"> tommorow</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="view-all">
-                                    <a href="javascript:void(0)">
-                                        See all tasks <i class="fa fa-arrow-circle-o-right"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- end: TO-DO DROPDOWN-->
-                        <!-- start: NOTIFICATION DROPDOWN -->
-                        <li class="dropdown">
-                            <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true" href="#">
-                                <i class="fa fa-map-o" aria-hidden="true"></i>
-                                <span class="badge"> 11</span>
-                            </a>
-                            <ul class="dropdown-menu notifications">
-                                <li>
-                                    <span class="dropdown-menu-title"> You have 11 notifications</span>
-                                </li>
-                                <li>
-                                    <div class="drop-down-wrapper">
-                                        <ul>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-primary"><i class="fa fa-user"></i></span>
-                                                    <span class="message"> New user registration</span>
-                                                    <span class="time"> 1 min</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-success"><i class="fa fa-comment"></i></span>
-                                                    <span class="message"> New comment</span>
-                                                    <span class="time"> 7 min</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-success"><i class="fa fa-comment"></i></span>
-                                                    <span class="message"> New comment</span>
-                                                    <span class="time"> 8 min</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-success"><i class="fa fa-comment"></i></span>
-                                                    <span class="message"> New comment</span>
-                                                    <span class="time"> 16 min</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-primary"><i class="fa fa-user"></i></span>
-                                                    <span class="message"> New user registration</span>
-                                                    <span class="time"> 36 min</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-warning"><i class="fa fa-shopping-cart"></i></span>
-                                                    <span class="message"> 2 items sold</span>
-                                                    <span class="time"> 1 hour</span>
-                                                </a>
-                                            </li>
-                                            <li class="warning">
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-danger"><i class="fa fa-user"></i></span>
-                                                    <span class="message"> User deleted account</span>
-                                                    <span class="time"> 2 hour</span>
-                                                </a>
-                                            </li>
-                                            <li class="warning">
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-danger"><i class="fa fa-shopping-cart"></i></span>
-                                                    <span class="message"> Transaction was canceled</span>
-                                                    <span class="time"> 6 hour</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-success"><i class="fa fa-comment"></i></span>
-                                                    <span class="message"> New comment</span>
-                                                    <span class="time"> yesterday</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-primary"><i class="fa fa-user"></i></span>
-                                                    <span class="message"> New user registration</span>
-                                                    <span class="time"> yesterday</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-primary"><i class="fa fa-user"></i></span>
-                                                    <span class="message"> New user registration</span>
-                                                    <span class="time"> yesterday</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-success"><i class="fa fa-comment"></i></span>
-                                                    <span class="message"> New comment</span>
-                                                    <span class="time"> yesterday</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <span class="label label-success"><i class="fa fa-comment"></i></span>
-                                                    <span class="message"> New comment</span>
-                                                    <span class="time"> yesterday</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="view-all">
-                                    <a href="javascript:void(0)">
-                                        See all notifications <i class="fa fa-arrow-circle-o-right"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- end: NOTIFICATION DROPDOWN -->
-                        <!-- start: MESSAGE DROPDOWN -->
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-close-others="true" data-hover="dropdown" data-toggle="dropdown" href="#">
-                                <i class="fa fa-wifi" aria-hidden="true"></i>
-                                <span class="badge"> 9</span>
-                            </a>
-                            <ul class="dropdown-menu posts">
-                                <li>
-                                    <span class="dropdown-menu-title"> You have 9 messages</span>
-                                </li>
-                                <li>
-                                    <div class="drop-down-wrapper">
-                                        <ul>
-                                            <li>
-                                                <a href="javascript:;">
-                                                    <div class="clearfix">
-                                                        <div class="thread-image">
-                                                            <img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-2.jpg">
-                                                        </div>
-                                                        <div class="thread-content">
-                                                            <span class="author">Nicole Bell</span>
-                                                            <span class="preview">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
-                                                            <span class="time"> Just Now</span>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:;">
-                                                    <div class="clearfix">
-                                                        <div class="thread-image">
-                                                            <img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-1.jpg">
-                                                        </div>
-                                                        <div class="thread-content">
-                                                            <span class="author">Peter Clark</span>
-                                                            <span class="preview">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
-                                                            <span class="time">2 mins</span>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:;">
-                                                    <div class="clearfix">
-                                                        <div class="thread-image">
-                                                            <img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-3.jpg">
-                                                        </div>
-                                                        <div class="thread-content">
-                                                            <span class="author">Steven Thompson</span>
-                                                            <span class="preview">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
-                                                            <span class="time">8 hrs</span>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:;">
-                                                    <div class="clearfix">
-                                                        <div class="thread-image">
-                                                            <img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-1.jpg">
-                                                        </div>
-                                                        <div class="thread-content">
-                                                            <span class="author">Peter Clark</span>
-                                                            <span class="preview">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
-                                                            <span class="time">9 hrs</span>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:;">
-                                                    <div class="clearfix">
-                                                        <div class="thread-image">
-                                                            <img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-5.jpg">
-                                                        </div>
-                                                        <div class="thread-content">
-                                                            <span class="author">Kenneth Ross</span>
-                                                            <span class="preview">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
-                                                            <span class="time">14 hrs</span>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="view-all">
-                                    <a href="pages_messages.html">
-                                        See all messages <i class="fa fa-arrow-circle-o-right"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- end: MESSAGE DROPDOWN -->
-                        <!-- start: USER DROPDOWN -->
                         <li class="dropdown current-user">
                             <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true" href="#">
-                                <img src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-1-small.jpg" class="circle-img" alt="">
+                                <img src="//picsum.photos/200/300/?random" style="width:20px;height:20px" class="circle-img" alt="">
                                 <span class="username"><?php echo $this->session->userdata('nama_lengkap') ?></span>
                                 <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li>
-                                    <a href="pages_user_profile.html">
-                                        <i class="fa fa-user" aria-hidden="true"></i> &nbsp;My Profile
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="pages_calendar.html">
-                                        <i class="clip-calendar"></i> &nbsp;My Calendar
-                                    </a>
-                                <li>
-                                    <a href="pages_messages.html">
-                                        <i class="clip-bubble-4"></i> &nbsp;My Messages (3)
-                                    </a>
-                                </li>
-                                <li class="divider"></li>
-                                <li>
-                                    <a href="utility_lock_screen.html">
-                                        <i class="clip-locked"></i> &nbsp;Lock Screen
-                                    </a>
-                                </li>
                                 <li>
 
                                     <?php
@@ -407,9 +76,7 @@
                         </li>
                         <!-- end: USER DROPDOWN -->
                         <!-- start: PAGE SIDEBAR TOGGLE -->
-                        <li>
-                            <a class="sb-toggle" href="#"><i class="fa fa-outdent"></i></a>
-                        </li>
+                        
                         <!-- end: PAGE SIDEBAR TOGGLE -->
                     </ul>
                     <!-- end: TOP NAVIGATION MENU -->
@@ -425,7 +92,7 @@
                 <div class="main-navigation navbar-collapse collapse">
                     <!-- start: MAIN MENU TOGGLER BUTTON -->
                     <div class="navigation-toggler">
-                        <i class="fa fa-angle-left" aria-hidden="true"></i>  
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
                         <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </div>
                     <!-- end: MAIN MENU TOGGLER BUTTON -->
@@ -463,7 +130,7 @@
                             }
                         }
                         ?>
-                        
+
                         <li class="active_open"><a href="<?php echo base_url() ?>/auth/logout"><i class="fa fa-sign-out"></i><span class="title">LOGOUT</span></a></li>
 
                     </ul>
@@ -560,21 +227,21 @@
                                         Backgrounds for Boxed Version
                                     </div>
                                     <div class="images boxed-patterns">
-                                        <a id="bg_style_1" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg.png"></a>
-                                        <a id="bg_style_2" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg_2.png"></a>
-                                        <a id="bg_style_3" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg_3.png"></a>
-                                        <a id="bg_style_4" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg_4.png"></a>
-                                        <a id="bg_style_5" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg_5.png"></a>
+                                        <a id="bg_style_1" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg.png"></a>
+                                        <a id="bg_style_2" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg_2.png"></a>
+                                        <a id="bg_style_3" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg_3.png"></a>
+                                        <a id="bg_style_4" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg_4.png"></a>
+                                        <a id="bg_style_5" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/bg_5.png"></a>
                                     </div>
                                     <div class="box-title">
                                         5 Predefined Color Schemes
                                     </div>
                                     <div class="images icons-color">
-                                        <a id="light" href="#"><img class="active" alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/lightgrey.png"></a>
-                                        <a id="dark" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/darkgrey.png"></a>
-                                        <a id="black-and-white" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/blackandwhite.png"></a>
-                                        <a id="navy" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/navy.png"></a>
-                                        <a id="green" href="#"><img alt="" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/green.png"></a>
+                                        <a id="light" href="#"><img class="active" alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/lightgrey.png"></a>
+                                        <a id="dark" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/darkgrey.png"></a>
+                                        <a id="black-and-white" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/blackandwhite.png"></a>
+                                        <a id="navy" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/navy.png"></a>
+                                        <a id="green" href="#"><img alt="" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/green.png"></a>
                                     </div>
                                     <div style="height:25px;line-height:25px; text-align: center">
                                         <a class="clear_style" href="#">
@@ -667,7 +334,7 @@
                                     <li class="media">
                                         <a href="#">
                                             <i class="fa fa-circle status-online"></i>
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-2.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-2.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Nicole Bell</h4>
                                                 <span> Content Designer </span>
@@ -680,7 +347,7 @@
                                                 <span class="label label-success">3</span>
                                             </div>
                                             <i class="fa fa-circle status-online"></i>
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-3.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-3.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Steven Thompson</h4>
                                                 <span> Visual Designer </span>
@@ -690,7 +357,7 @@
                                     <li class="media">
                                         <a href="#">
                                             <i class="fa fa-circle status-online"></i>
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Ella Patterson</h4>
                                                 <span> Web Editor </span>
@@ -700,7 +367,7 @@
                                     <li class="media">
                                         <a href="#">
                                             <i class="fa fa-circle status-online"></i>
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-5.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-5.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Kenneth Ross</h4>
                                                 <span> Senior Designer </span>
@@ -712,7 +379,7 @@
                                 <ul class="media-list">
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-6.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-6.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Nicole Bell</h4>
                                                 <span> Content Designer </span>
@@ -724,7 +391,7 @@
                                             <div class="user-label">
                                                 <span class="label label-success">3</span>
                                             </div>
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-7.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-7.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Steven Thompson</h4>
                                                 <span> Visual Designer </span>
@@ -733,7 +400,7 @@
                                     </li>
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-8.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-8.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Ella Patterson</h4>
                                                 <span> Web Editor </span>
@@ -742,7 +409,7 @@
                                     </li>
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-9.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-9.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Kenneth Ross</h4>
                                                 <span> Senior Designer </span>
@@ -751,7 +418,7 @@
                                     </li>
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-10.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-10.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Ella Patterson</h4>
                                                 <span> Web Editor </span>
@@ -760,7 +427,7 @@
                                     </li>
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-5.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-5.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Kenneth Ross</h4>
                                                 <span> Senior Designer </span>
@@ -786,7 +453,7 @@
                                 <ol class="discussion sidebar-content">
                                     <li class="other">
                                         <div class="avatar">
-                                            <img src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" alt="">
+                                            <img src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" alt="">
                                         </div>
                                         <div class="messages">
                                             <p>
@@ -797,7 +464,7 @@
                                     </li>
                                     <li class="self">
                                         <div class="avatar">
-                                            <img src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-1.jpg" alt="">
+                                            <img src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-1.jpg" alt="">
                                         </div>
                                         <div class="messages">
                                             <p>
@@ -808,7 +475,7 @@
                                     </li>
                                     <li class="other">
                                         <div class="avatar">
-                                            <img src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" alt="">
+                                            <img src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" alt="">
                                         </div>
                                         <div class="messages">
                                             <p>
@@ -825,7 +492,7 @@
                                 <ul class="media-list">
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-7.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-7.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Nicole Bell</h4>
                                                 <span> Content Designer </span>
@@ -837,7 +504,7 @@
                                             <div class="user-label">
                                                 <span class="label label-success">3</span>
                                             </div>
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-6.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-6.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Steven Thompson</h4>
                                                 <span> Visual Designer </span>
@@ -846,7 +513,7 @@
                                     </li>
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-10.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-10.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Ella Patterson</h4>
                                                 <span> Web Editor </span>
@@ -855,7 +522,7 @@
                                     </li>
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-2.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-2.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Kenneth Ross</h4>
                                                 <span> Senior Designer </span>
@@ -864,7 +531,7 @@
                                     </li>
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Ella Patterson</h4>
                                                 <span> Web Editor </span>
@@ -873,7 +540,7 @@
                                     </li>
                                     <li class="media">
                                         <a href="#">
-                                            <img alt="..." src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-5.jpg" class="media-object">
+                                            <img alt="..." src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-5.jpg" class="media-object">
                                             <div class="media-body">
                                                 <h4 class="media-heading">Kenneth Ross</h4>
                                                 <span> Senior Designer </span>
@@ -889,7 +556,7 @@
                                 <ol class="discussion sidebar-content">
                                     <li class="other">
                                         <div class="avatar">
-                                            <img src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" alt="">
+                                            <img src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" alt="">
                                         </div>
                                         <div class="messages">
                                             <p>
@@ -900,7 +567,7 @@
                                     </li>
                                     <li class="self">
                                         <div class="avatar">
-                                            <img src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-1.jpg" alt="">
+                                            <img src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-1.jpg" alt="">
                                         </div>
                                         <div class="messages">
                                             <p>
@@ -911,7 +578,7 @@
                                     </li>
                                     <li class="other">
                                         <div class="avatar">
-                                            <img src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" alt="">
+                                            <img src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/images/avatar-4.jpg" alt="">
                                         </div>
                                         <div class="messages">
                                             <p>
@@ -1002,31 +669,31 @@
             </div>
             <!-- start: MAIN JAVASCRIPTS -->
             <!--[if lt IE 9]>
-                <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/respond/dest/respond.min.js"></script>
-                <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/Flot/excanvas.min.js"></script>
-                <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/jquery-1.x/dist/jquery.min.js"></script>
+                <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/respond/dest/respond.min.js"></script>
+                <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/Flot/excanvas.min.js"></script>
+                <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/jquery-1.x/dist/jquery.min.js"></script>
                 <![endif]-->
             <!--[if gte IE 9]><!-->
 
-            <script type="text/javascript" src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-            <script type="text/javascript" src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
-            <script type="text/javascript" src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/blockUI/jquery.blockUI.js"></script>
-            <script type="text/javascript" src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/iCheck/icheck.min.js"></script>
-            <script type="text/javascript" src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/perfect-scrollbar/js/min/perfect-scrollbar.jquery.min.js"></script>
-            <script type="text/javascript" src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/jquery.cookie/jquery.cookie.js"></script>
-            <script type="text/javascript" src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/sweetalert/dist/sweetalert.min.js"></script>
-            <script type="text/javascript" src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/js/min/main.min.js"></script>
+            <script type="text/javascript" src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+            <script type="text/javascript" src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/blockUI/jquery.blockUI.js"></script>
+            <script type="text/javascript" src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/iCheck/icheck.min.js"></script>
+            <script type="text/javascript" src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/perfect-scrollbar/js/min/perfect-scrollbar.jquery.min.js"></script>
+            <script type="text/javascript" src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/jquery.cookie/jquery.cookie.js"></script>
+            <script type="text/javascript" src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/sweetalert/dist/sweetalert.min.js"></script>
+            <script type="text/javascript" src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/js/min/main.min.js"></script>
             <!-- end: MAIN JAVASCRIPTS -->
             <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/Flot/jquery.flot.js"></script>
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/Flot/jquery.flot.pie.js"></script>
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/Flot/jquery.flot.resize.js"></script>
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/plugin/jquery.sparkline.min.js"></script>
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/jqueryui-touch-punch/jquery.ui.touch-punch.min.js"></script>
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/moment/min/moment.min.js"></script>
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
-            <script src="http://www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/js/min/index.min.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/Flot/jquery.flot.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/Flot/jquery.flot.pie.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/Flot/jquery.flot.resize.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/plugin/jquery.sparkline.min.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/jqueryui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/moment/min/moment.min.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+            <script src="//www.cliptheme.com/preview/cliponeV2/Admin/clip-one-template/clip-one/assets/js/min/index.min.js"></script>
             <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 
             <script>
